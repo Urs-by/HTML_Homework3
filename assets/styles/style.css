@@ -1,117 +1,127 @@
-
 @font-face {
-    font-family: 'Gilroy-Medium', sans-serif;;
-    
-    src: url(./assets/fonts/gilroy-medium.ttf);
-    font-weight: normal;
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
     font-style: normal;
-    
-}
-@font-face {
-    font-family: 'Gilroy-Bold', sans-serif;;
-    src: url(./assets/fonts/gilroy-bold.ttf);
-    font-weight: normal;
-    font-style: normal;
-    
-}
-@font-face {
-    font-family: 'Gilroy-Semibold', sans-serif;;
-    src: url(./assets/fonts/gilroy-semibold.ttf);
-    font-weight: normal;
-    font-style: normal;
-    
+    font-weight: 400;
 }
 
-body{
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
     margin: 0;
     background-color: #FFF;
-    height: 950px;
-}
-.header{
-    margin-top: 40px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    width: 1289px;     
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    gap: 250px;
-    align-items: center;
-    
-    
-}
-.menu{
-    
-    width: 556px;
-    display: flex; 
-    flex-shrink: 0;   
-    justify-content: space-between;
-    align-items: center;
-     
 }
 
-a{     
-    font-family: 'Gilroy-Medium', sans-serif;
-    color: #000;    
+.header {
+    /* margin-top: 40px; */
+    margin-left: 57px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 114px;
+    align-items: center;
+    gap: 337px;
+}
+
+.menu {
+
+    width: 556px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    font-family: 'Gilroy-Medium';
+    color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #F25822;
-    font-family: 'Gilroy-SemiBold',sans-serif;
+    font-family: 'Gilroy-SemiBold';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.intro{
-    margin: 35px; 
-    width: 1274px;
-    display: flex;    
-    justify-content: space-evenly; 
-    gap: 100px;   
-    margin-right: auto;
-    margin-left: auto;
+.intro {
+
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-left: 57px;
     align-items: center;
-    
+    gap: 15px;
+
+
 }
-.intro-text{
-    width: 589px;
-}
-.intro-title{
+
+
+
+.intro-title {
     width: 522px;
     color: #000;
-    font-family: 'Gilroy-Bold',sans-serif;
+    font-family: 'Gilroy-Bold';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;   
+    line-height: normal;
     margin-bottom: 17px;
-    
-    
+
+
 }
-.intro-button-wrapper{
-    display: flex;
-    gap:31px;
-    align-items: center;
-}
-.intro-text{
+
+.intro-text {
+    font-family: 'Gilroy-Medium';
     color: #888888;
-    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    width: 446px;
-    
+    width: 466px;
+
 }
-.intro-batten{
+
+.intro-button-wrapper {
+    margin-top: 35px;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+
+
+.intro-batten {
     color: #FFF;
-    font-family: 'Gilroy-Bold', sans-serif;;
+    font-family: 'Gilroy-Bold';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -122,35 +132,116 @@ a:hover{
     border-radius: 50px;
     background: #F25822;
     /* box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20); */
-}   
-.intro-batten-text{
+}
+
+.intro-batten-text {
     color: #AAA;
-    font-family: 'Gilroy-Bold',sans-serif;
+    font-family: 'Gilroy-Bold';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.intro-batten-text:hover{
+
+.intro-batten-text:hover {
     color: #F25822;
-    font-family: 'Gilroy-SemiBold',sans-serif;
+    font-family: 'Gilroy-SemiBold';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
 }
-.intro-img{
+
+.intro-img {
     margin-right: 64px;
 }
-.logo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1240px; 
-    height: 240px;
+
+.logo {
+    margin-top: 38px;
+    height: 158px;
     display: flex;
     justify-content: space-between;
-    gap: 48;
     align-items: center;
+
+}
+
+.intro2-title {
+    color: #000;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro2-text {
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    width: 515px;
+
+}
+
+.unit {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.unit-box {
+    /* border: 1px solid red; */
+    width: 381px;
+    padding: 40px 30px;
+}
+
+.unit-box:hover {
+    box-shadow: 8px 10px 15px 5px rgba(0, 0, 255, .2);
+}
+
+.unit-title {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.unit-text {
+    width: 310px;
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.unit-batten-text {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+}
+
+.unit-batten-text:hover {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
 
 }
