@@ -29,19 +29,30 @@
 body {
     margin: 0;
     background-color: #FFF;
-    width: 1170px;
+    
+}
+
+.container{ 
+     
+    width: 1270px;  
     margin-left: auto;
     margin-right: auto;
 }
+.center {
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
-.header {
-    /* margin-top: 40px; */
-    margin-left: 57px;
+.header{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     height: 114px;
     align-items: center;
-    gap: 337px;
+    gap: 337px;    
+    
 }
 
 .menu {
@@ -74,14 +85,10 @@ a:hover {
 }
 
 .intro {
-
-    display: flex;
-    /* justify-content: space-evenly; */
-    padding-left: 57px;
+    display: flex;    
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
-
-
 }
 
 
@@ -111,7 +118,8 @@ a:hover {
 }
 
 .intro-button-wrapper {
-    margin-top: 35px;
+    margin-top: 37px;
+    margin-bottom: 50px;
     display: flex;
     gap: 31px;
     align-items: center;
@@ -165,40 +173,17 @@ a:hover {
     align-items: center;
 
 }
-
-.intro2-title {
-    color: #000;
-
-    font-family: 'Gilroy-Bold';
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.intro2-text {
-    color: #666;
-    font-family: 'Gilroy-Regular';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    /* 24px */
-    width: 515px;
-
-}
-
 .unit {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
 .unit-box {
-    /* border: 1px solid red; */
-    width: 381px;
+    /* border: 1px solid rgb(10, 1, 1); */
+    width: 370px;
     padding: 40px 30px;
 }
 
@@ -245,3 +230,59 @@ a:hover {
     /* 16.5px */
 
 }
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+
+}
+
+.part-three-title {
+    margin-top: 192px;
+    margin-bottom: 19px;
+    text-align: center;
+    color: #000;
+
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+
+.part-three-text {
+    color: #666;
+    width: 682px;    
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 54px;
+    /* 24px */
+}
+.part-three-unit {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.part-three-unit:hover {
+    box-shadow: 8px 10px 15px 5px rgba(0, 0, 255, .2);
+}
+.part-three-unit-text{
+    margin: 0;
+}
+
+.reset{
+    margin:0;
+
+}
+
+
